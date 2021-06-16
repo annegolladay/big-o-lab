@@ -26,7 +26,7 @@ for (let i = 0; i < numbers.length; i++) {
 
 // Q: What is the time complexity of of this solution?
 // ANSWER:
-O(1)  ask question
+O(1)
 
 // Q: Could you come up with a solution that has a better time complexity? If so, what is that time complexity?
 // ANSWER:
@@ -68,7 +68,7 @@ O(n^2)
 
 // 5) -------------------------------------------------------
 for (let i = 0; i < numbers.length; i++) {
-  for (let j = 0; j < numbers.length; i++) {
+  for (let j = 0; j < numbers.length; j++) {
     console.log(j)
   }
 }
@@ -125,10 +125,13 @@ function printFirstTwoNames(array) {
 }
 O(1)
 
+
 // Q: What is the time complexity of the function? Could we write this function differently to accomplish the goal of the function in a faster time complexity?
 // ANSWER:
-/*The time complexity of the function is O(1) because it is constant and not changing because 
+/*The time complexity of the function is O(1) because it is constant and not changing because it is asking for the exact index of an array and that doesn't change but is always constant.
+console.log(`${array[0]}, ${array[1]}`) could be another perhaps faster way to just console.log once in the function.
 */
+
 // Advanced Challenges
 // Solve the following challenge. Once complete, determine the time complexity of your solution. Consider if there are ways to solve the challenge with a better time complexity.
 
